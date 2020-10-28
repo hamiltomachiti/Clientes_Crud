@@ -10,7 +10,7 @@ import {Subject } from 'rxjs';
 export class ClienteService {
 
   constructor() { }
-
+//teste
   private listaClientesAtualizada = new Subject<Cliente[]>();
 
   private clientes: Cliente [] = [
